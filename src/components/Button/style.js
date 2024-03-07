@@ -7,13 +7,13 @@ export const Button = styled.button`
   gap: 14px;
   width: 342px;
   height: 74px;
-  margin: 100px auto 0;
+  margin: 70px auto 20px;
   border-radius: 14px;
-  background: ${({ backTheme }) => (backTheme ? "none" : "#000000cc")};
-  color: #ffffff;
+  background: ${({ backTheme }) => (backTheme ? "none" : "#151515")};
+  color: ${({ backTheme }) => backTheme ? "#151515" : "#eeeeee"};
   font-size: 18px;
-  font-weight: 700;
-  border: ${({ backTheme }) => backTheme ? "1px solid #ffffff" : "none"};
+  font-weight: 600;
+  border: ${({ backTheme }) => backTheme ? "1px solid #151515" : "none"};
   cursor: pointer;
 
   &:hover {
@@ -26,5 +26,6 @@ export const Button = styled.button`
 
   img {
     transform: ${({ backTheme }) => backTheme ? "rotate(180deg)" : ""};
+    filter: ${({ backTheme }) => backTheme ? "invert(85%)" : ""};
   }
 `

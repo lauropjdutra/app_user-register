@@ -1,11 +1,10 @@
 import styled from "styled-components"
-import Background from "../../assets/bg-signup.svg"
 
 export const Container = styled.div`
   height: 100%;
   min-height: 100vh;
-  background: url("${Background}");
-  background-size: cover;
+  background: linear-gradient(90deg, #00f2a9 0%, #02d5fa 100%);
+  /* background-size: cover; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,34 +14,58 @@ export const Container = styled.div`
 
 export const User = styled.li`
   display: flex;
-  justify-content: space-around;
+  /* flex-direction: column; */
+  justify-content: space-between;
   align-items: center;
+  gap: 5px;
   width: 342px;
-  height: 58px;
-  padding: 0 10px;
+  min-height: 70px;
+  /* height: 58px; */
+  padding-left: 10px;
   margin: 30px auto 0;
   border-radius: 14px;
-  box-shadow: 0px 4px 4px 0px #00000040;
-  background: #ffffff40;
-  border: none;
-  outline: none;
+  box-shadow: 0px 0px 10px 0px #00000040;
+  background: #eeeeee40;
+  /* border: 1px solid #ccc; */
 
-  p:first-child {
-    width: 50px;
-    text-align: left;
+  div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+  }
+
+  div:nth-child(2) {
+    /* background: #ff2514; */
+    max-width: 230px;
+    word-wrap: break-word;
+  }
+
+  img {
+    height: 42px;
+    /* width: 50px; */
+  }
+
+  b {
+    font-weight: 600;
   }
 
   p {
-    text-align: center;
-    width: 80px;
-    color: #ffffff;
-    font-size: 20px;
+    padding: 0 10px;
+    color: #222222;
+    font-size: 16px;
     font-weight: 300;
   }
 
   button {
-    background: none;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    /* width: fit-content; */
+    padding: 0 10px;
+    background: #ff2514;
     border: none;
+    border-radius: 0px 13px 13px 0px;
     cursor: pointer;
 
     &:hover {
@@ -52,9 +75,16 @@ export const User = styled.li`
     &:active {
       opacity: 0.5;
     }
+
+    img {
+      width: 15px;
+    }
   }
 
   span {
-    color: #ffffff;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    color: #151515;
   }
 `;

@@ -6,12 +6,12 @@ export const ContainerItems = styled.div`
   min-height: calc(100vh - 247px);
   background: linear-gradient(
     157.44deg,
-    rgba(255, 255, 255, 0.6) 0.84%,
-    rgba(255, 255, 255, 0.6) 0.85%,
-    rgba(255, 255, 255, 0.15) 100%
+    rgba(255, 255, 255, 0.9) 0.84%,
+    rgba(255, 255, 255, 0.9) 0.85%,
+    rgba(255, 255, 255, 0.4) 100%
   );
   border-radius: 61px 61px 0 0;
-  padding: 50px 0;
+  padding: 50px 0 10px;
   display: flex;
   flex-direction: column;
   backdrop-filter: blur(45px);

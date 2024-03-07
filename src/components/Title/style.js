@@ -2,9 +2,8 @@ import styled from "styled-components"
 
 export const H1 = styled.h1`
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 40px;
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 `;
