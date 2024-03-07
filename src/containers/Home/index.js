@@ -72,7 +72,7 @@ const App = () => {
           <img src={Arrow} alt="Seta" />
         </Button>
         <Footer>
-        <span title="Desenvolvido por Lauro Dutra">Copyright &copy; 2024 - Desenvolvido por <a href="https://www.linkedin.com/in/lauropjdutra" target="_blank" rel="noreferrer">Lauro Dutra</a></span>
+        <span title="Desenvolvido por Lauro Dutra">Copyright &copy; 2024 por <a href="https://www.linkedin.com/in/lauropjdutra" target="_blank" rel="noreferrer">Lauro Dutra</a></span>
         </Footer>
       </ContainerItems>
     </Container>

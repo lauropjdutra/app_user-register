@@ -10,7 +10,17 @@ export const Footer = styled.footer`
     position: absolute;
     bottom: 20px;
   }
+
   a {
+    text-decoration: none;
     font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
   }
 `
