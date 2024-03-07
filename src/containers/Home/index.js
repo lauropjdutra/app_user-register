@@ -26,8 +26,7 @@ const App = () => {
   const typedEmail = useRef()
   const navigate = useNavigate()
 
-  // const baseUrl = "https://api-user-register.vercel.app"
-  const baseUrl = "http://localhost:3001"
+  const baseUrl = "https://api-user-register.vercel.app"
 
   const capitalize = string => {
     return string
