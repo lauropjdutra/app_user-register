@@ -18,7 +18,6 @@ export const Label = styled.p`
   font-weight: 500;
   line-height: 22px;
   text-align: left;
-  /* color: #eeeeee; */
 `;
 
 export const Input = styled.input`
